@@ -1,7 +1,8 @@
 # Qwen 3.5 From Scratch
 
 This repo contains my code for replicating Qwen 3.5-2B from scratch. 
-I've documented the process here - 
+
+I've documented the process here: [Part 1](https://kitchensink.bearblog.dev/llm-inference-from-scratch-part-1/)
 
 ## Instructions for cloning the repo and downloading the model weights and files
 Run the following block: 
@@ -35,5 +36,5 @@ bash tests/test_02_split_pretokenized_text.sh <path to model files>
 ```
 
 ## Instructions for running the files manually
-Assuming you are in the `llm-from-scratch` directory run `python3 reference/run.py --help` to see all the arguments. 
+Assuming you are in the `llm-from-scratch` directory run `python3 reference/run.py --help` to see all the arguments.  
 The arguments and their semantics are the same for the `main.cpp` file (except for `--help`), so you will need to run `make` and then `./build/main (arguments)`
